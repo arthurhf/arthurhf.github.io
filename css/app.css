@@ -59,6 +59,7 @@
 
 h1 {
   font-family: "Courier New";
+  font-weight: bolder;
   color: white;
   text-align: center;
 }
@@ -106,5 +107,53 @@ h1 {
   .description {
     padding-top: 10px;
     padding-left: 0;
+  }
+}
+
+@media (max-width:490px) {
+  .img-icon {
+    height: 35px;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+ h1 {
+  font-weight: bold;
+  font-size: 1.25rem;
+ }
+
+ .what-i-am {
+    font-size: 0.8rem;
+  }
+
+  .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  .my-picture {
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+  }
+
+  .description {
+    padding-top: 36px;
+  }
+
+  .social-media {
+    padding-top: 11px;
+  }
+
+  .description-text {
+    display: initial;
+  }
+
+  .description-box {
+    height: auto;
   }
 }
