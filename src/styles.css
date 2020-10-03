@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/*
+hex colors: #cbd4c2 #dbebc0 #c3b299 #815355 #523249
+*/
+
+.color-ash-gray{
+    color: #cbd4c2;
+}
+
+.bg-color-ash-gray{
+    background-color: #cbd4c2;
+}
+
+.color-tea-green{
+    color: #dbebc0;
+}
+
+.bg-color-tea-green{
+    background-color: #dbebc0;
+}
+
+.color-khaki{
+    color:#c3b299
+}
+
+.bg-color-khaki{
+    background-color:#c3b299
+}
+
+.color-tuscan-red{
+    color: #815355 ;
+}
+
+.bg-color-tuscan-red{
+    background-color: #815355 ;
+}
+
+.color-dark-byzantium{
+    background-color: #523249 ;
+}
+
+.bg-color-dark-byzantium{
+    background-color: #523249 ;
+}
+
+.w-900{
+    max-width: 900px;
+}
+
+.h-1000{
+    height: 1000px;
+    max-height: 1000px;
+}
+
+.text-content{
+    font-family: 'K2D', sans-serif;
+}
+
+.h-600{
+    height: 600px;
+    min-height: 600px;
+}
+
+.not-found{
+    position: relative;
+    z-index: 99;
+    background-color: #cbd4c2;
+    color: #333;
+    padding: 10%;
+    height: 100%;
+}

@@ -1,0 +1,30 @@
+
+<div class="container-fluid bg-color-dark-byzantium">
+    <div class="mx-auto w-900 pt-3">
+        <nav class="navbar sticky-top navbar-dark navbar-expand-md bg-color-tuscan-red bg-faded">
+
+          <a class="nav-link color-tea-green" [routerLink]="['']" routerLinkActive="router-link-active"  data-toggle="tooltip" title="oh hello visitor" data-placement="bottom">Arthur's World</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" (click)="navController()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          
+            
+          <div class="collapse navbar-collapse  justify-content-center" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link color-tea-green" [routerLink]="['/something']" routerLinkActive="router-link-active"  data-toggle="tooltip" title="no" data-placement="bottom">something</a>
+
+                <a class="nav-item nav-link color-tea-green" [routerLink]="['/interesting']" routerLinkActive="router-link-active"  data-toggle="tooltip" title="nothing here" data-placement="bottom">interesting</a>
+                
+                <a class="nav-item nav-link color-tea-green" [routerLink]="['/abt-me']" data-toggle="tooltip" title="dude stop searching" data-placement="bottom">about me</a>
+
+                <a class="nav-item nav-link color-tea-green" [routerLink]="['/whatever']" routerLinkActive="router-link-active"  data-toggle="tooltip" title="omg dude ur so anoying" data-placement="bottom">or whatever.</a>
+
+                <a class="nav-item nav-link color-tea-green" [routerLink]="['/missing-you']" routerLinkActive="router-link-active"  data-toggle="tooltip" title="definitely not" data-placement="bottom">maybe about...</a>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+</div>
