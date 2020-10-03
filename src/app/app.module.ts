@@ -13,6 +13,7 @@ import { SomethingComponent } from './something/something.component';
 import { InterestingComponent } from './interesting/interesting.component';
 import { WhateverComponent } from './whatever/whatever.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     HttpClientModule,
     routing
   ],
