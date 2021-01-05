@@ -49,19 +49,23 @@ hex colors: #cbd4c2 #dbebc0 #c3b299 #815355 #523249
     max-width: 900px;
 }
 
-.h-1000{
-    height: 1000px;
-    max-height: 1000px;
+.content-container{
+    min-height: 100vh;
 }
 
 .text-content{
     font-family: 'K2D', sans-serif;
 }
 
-.h-600{
-    height: 600px;
-    min-height: 600px;
+.inner-content{
+    min-height: 300px;
 }
+
+@media screen and (max-width: 920px) {
+    .inner-content{
+        margin: auto 15px;
+    }
+  }
 
 .not-found{
     position: relative;
@@ -69,5 +73,4 @@ hex colors: #cbd4c2 #dbebc0 #c3b299 #815355 #523249
     background-color: #cbd4c2;
     color: #333;
     padding: 10%;
-    height: 100%;
 }
