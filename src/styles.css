@@ -61,6 +61,12 @@ hex colors: #cbd4c2 #dbebc0 #c3b299 #815355 #523249
     min-height: 300px;
 }
 
+@media screen and (max-width: 920px) {
+    .inner-content{
+        margin: auto 15px;
+    }
+  }
+
 .not-found{
     position: relative;
     z-index: 99;
