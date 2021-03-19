@@ -13,7 +13,8 @@ import { SomethingComponent } from './something/something.component';
 import { InterestingComponent } from './interesting/interesting.component';
 import { WhateverComponent } from './whatever/whatever.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { DinoComponent } from './dino/dino.component'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
     SomethingComponent,
     InterestingComponent,
     WhateverComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    DinoComponent
   ],
   imports: [
     BrowserModule,
